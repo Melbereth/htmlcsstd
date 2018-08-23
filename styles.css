@@ -177,3 +177,13 @@ footer {
 .logo:last-child {
   bottom: 30px;
 }
+
+.inscription {
+  display: flex;
+  width: 100%;
+}
+
+input {
+  margin-bottom: 20px;
+  /* width: 200px; */
+}

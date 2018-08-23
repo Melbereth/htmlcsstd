@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+</head>
+<html lang="en" dir="ltr">
+  <div class="inscription">
+
+
+      <form action="sendToMySecondYearInIut.php" method="get">
+        <div>
+          <label for="surname">Nom: </label>
+          <input id="surname" name="uname" type="text">
+        </div>
+        <div>
+          <label for="fisrtname">Prenom: </label>
+          <input id="firstname" name="prenom" type="text">
+        </div>
+        <div>
+          <label for="sexe">Sexe: </label>
+          Homme <input type="radio" name="gender" value="homme">
+          Femme <input type="radio" name="gender" value="femme">
+          Autre <input type="radio" name="gender" value="autre">
+        </div>
+        <div>
+          <label for="date">Date: </label>
+          <input type="Date" name="date" value="date">
+        </div>
+        <div>
+          <label for="mdp">Mot de passe: </label>
+          <input type="password" name="pwd" value="mdp">
+        </div>
+        <div>
+          <label for="email">Email: </label>
+          <input type="email" name="email" value="">
+        </div>
+        <div>
+          <label for="karate">Niveau karaté: </label>
+          <input type="number" name="" min="0" max="5">
+        </div>
+        <div>
+          <label for="engage">Niveau d'engagement: </label>
+          <input type="range" name="points" min="Basique (5€)" step="Gold (15€)" max="Tatane in your face (50€)">
+        </div>
+        <div>
+          <label for="clause">« J'ai bien lu les clauses que je n'ai pas lues »</label>
+          <input type="checkbox" name="lu" value="">
+        </div>
+
+
+
+        <input type="submit" value="Envoyer">
+      </form>
+  </div>
+</html>
